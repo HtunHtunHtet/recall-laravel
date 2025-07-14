@@ -66,7 +66,7 @@
 
             <div class="flex items-center gap-x-6">
                 <a
-                    href="/jobs/{{ $job->id }}"
+                    href="/jobs"
                     type="button"
                     class="text-sm/6 font-semibold text-gray-900"
                 >Cancel</a>
