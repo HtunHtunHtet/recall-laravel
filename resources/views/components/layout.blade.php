@@ -18,7 +18,7 @@
                         </div>
                         <div class="hidden md:block">
                             <div class="ml-10 flex items-baseline space-x-4">
-                                <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                                <!-- Current: "bg-grtay-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                                 <x-nav-link href="/" :active="request()->is('/')" >Home</x-nav-link>
                                 <x-nav-link href="/jobs" :active="request()->is('jobs')">Jobs</x-nav-link>
                                 <x-nav-link href="/contact" :active="request()->is('contact')">Contact</x-nav-link>
@@ -98,8 +98,6 @@
             <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8 sm:flex sm:justify-between">
                 <h1 class="text-3xl font-bold tracking-tight text-gray-900">{{ $heading }}</h1>
                 <x-button href="/job/create">Create Job</x-button>
-
-{{--                <a href="/job/create" class="relative inline-flex items-center px-2 py-2 -ml-px text-sm font-medium text-gray-500 bg-white border border-gray-300 rounded-r-md leading-5 hover:text-gray-400 focus:z-10 focus:outline-none focus:ring ring-gray-300 focus:border-blue-300 active:bg-gray-100 active:text-gray-500 transition ease-in-out duration-150 dark:bg-gray-800 dark:border-gray-600 dark:active:bg-gray-700 dark:focus:border-blue-800">Create Job</a>--}}
             </div>
         </header>
         <main>
