@@ -32,8 +32,8 @@ class AppServiceProvider extends ServiceProvider
          * In this case User is always the sign in user
          * If we want to handle the case to check unSign in user , we simply use  optional user parameter (?User)
          */
-        Gate::define('edit-job', function (User $user, Job $job) {
-            return $job->employer->user->is($user);
-        });
+//        Gate::define('edit-job', function (User $user, Job $job) {
+//            return $job->employer->user->is($user);
+//        });
     }
 }
